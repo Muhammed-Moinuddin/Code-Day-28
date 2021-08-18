@@ -1,0 +1,39 @@
+div.static{
+    border: 2px solid blue;
+    position: static;
+}
+div.relative{
+    border: 2px solid red;
+    position: relative;
+    left: 40px;
+}
+div.fixed{
+    border: 2px solid green;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 360px;
+    /*We have to set width in fixed positioning*/
+}
+div.absolute{
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid yellow;
+}
+div.sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    right: 50%;
+    border: 2px solid orange;
+    background-color: palegoldenrod;
+}
+img.two {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
